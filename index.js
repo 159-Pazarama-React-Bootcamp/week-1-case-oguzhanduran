@@ -67,7 +67,7 @@ const isCreditCardNumberValid = (cardNumber) => {
   }
    
    
-  // isCreditCardNumberValid ("9999777788880000") // "Harika, Kart Numaranız ve Son Kullanma Tarihiniz Geçerli!"
+     isCreditCardNumberValid ("9999777788880000") // "Harika, Kart Numaranız ve Son Kullanma Tarihiniz Geçerli!"
   // isCreditCardNumberValid ("6666666666661666") // "Kart Numaranız Geçerli Fakat Son Kullanma Tarihiniz Geçersiz!"
   
   // isCreditCardNumberValid ("a92332119c011112") // "Kart Numaranız Sadece Rakamlardan Oluşmalı!"

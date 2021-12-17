@@ -1,7 +1,9 @@
 // Solution
 
-const isCreditCardNumberValid = (cardNumber) => {
+document.getElementById("myButton").onclick = function() {
 
+  var cardNumber = document.getElementById("myText").value
+  
   // "-" işareti geldiğinde kart numarasını kabul etmesini sağladık.
   var edittedNum = "";
   
@@ -67,7 +69,7 @@ const isCreditCardNumberValid = (cardNumber) => {
   }
    
    
-     isCreditCardNumberValid ("9999777788880000") // "Harika, Kart Numaranız ve Son Kullanma Tarihiniz Geçerli!"
+  // isCreditCardNumberValid ("9999777788880000") // "Harika, Kart Numaranız ve Son Kullanma Tarihiniz Geçerli!"
   // isCreditCardNumberValid ("6666666666661666") // "Kart Numaranız Geçerli Fakat Son Kullanma Tarihiniz Geçersiz!"
   
   // isCreditCardNumberValid ("a92332119c011112") // "Kart Numaranız Sadece Rakamlardan Oluşmalı!"
@@ -77,4 +79,3 @@ const isCreditCardNumberValid = (cardNumber) => {
   
   // isCreditCardNumberValid ("-9999-7777-8888-0000") // "Harika, Kart Numaranız ve Son Kullanma Tarihiniz Geçerli!"
   // isCreditCardNumberValid ("-6666-6666-6666-1666") // "Kart Numaranız Geçerli Fakat Son Kullanma Tarihiniz Geçersiz!"
-
